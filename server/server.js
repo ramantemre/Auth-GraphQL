@@ -27,6 +27,7 @@ app.use(cors(corsOptions));
 // app.use(cors())
 
 // Replace with your mongoLab URI
+// MongoDB connection string refernce https://www.mongodb.com/docs/guides/atlas/connection-string/
 const MONGO_URI = 'mongodb+srv://dbUser:dbUserPassword@cluster0.dcaaf.mongodb.net/?retryWrites=true&w=majority';
 
 // Mongoose's built in promise library is deprecated, replace it with ES2015 Promise
